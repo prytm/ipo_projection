@@ -1,5 +1,6 @@
 pandas
 numpy
+pip install numpy scipy
 scipy
 skfuzzy
 mahalanobis
