@@ -1,4 +1,6 @@
 import pandas as pd
 import numpy as np
+pip install numpy scipy
+pip install scikit-fuzzy
 import skfuzzy as fuzz
 from scipy.spatial.distance import mahalanobis
