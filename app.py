@@ -93,7 +93,13 @@ with col2:
         dist_min = df_sub['mahalanobis_distance'].min()
         dist_max = df_sub['mahalanobis_distance'].max()
         dist_range = dist_max - dist_min
+        
+        # Tangani kasus dist_range negatif atau tidak valid
+        if np.isnan(dist_range) or dist_range <= 0:
+            dist_range = 1  # fallback default agar tidak error
+        
         dist_x = np.arange(0, dist_range + 1, 0.1)
+
         dist_close = fuzz.trimf(dist_x, [0, 0, dist_range / 2])
 
         df_sub['fuzzy_similarity'] = df_sub['mahalanobis_distance'].apply(
