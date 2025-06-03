@@ -1,7 +1,6 @@
 pandas
 numpy
 scipy
-uninstall scikit-fuzzy
 install scikit-fuzzy
 scikit-fuzzy
 mahalanobis
