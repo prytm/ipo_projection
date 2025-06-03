@@ -51,7 +51,7 @@ with col1:
     market_cap = st.number_input("Market Cap", value = 3534400000)
     roe = st.number_input("Return on Equity", value = 0.1896)
     net_income = st.number_input("Net Income", value = 42347424194)
-    der = st.number_input("Debt to Equity Ratio", value = )
+    der = st.number_input("Debt to Equity Ratio", value = 1.71)
     free_float = st.number_input("Free Float", value = 0.2108)
 
     subsektor_list = [
