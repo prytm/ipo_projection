@@ -47,12 +47,12 @@ col1, col2 = st.columns([1, 3])
 with col1:
     st.markdown("### Deskripsi singkat...")
     st.markdown("**Input disini :**")
-    ipo_price = st.number_input("IPO Price")
-    market_cap = st.number_input("Market Cap")
-    roe = st.number_input("Return on Equity")
-    net_income = st.number_input("Net Income")
-    der = st.number_input("Debt to Equity Ratio")
-    free_float = st.number_input("Free Float")
+    ipo_price = st.number_input("IPO Price" ,value = 188)
+    market_cap = st.number_input("Market Cap", value = 3534400000)
+    roe = st.number_input("Return on Equity", 0.1896)
+    net_income = st.number_input("Net Income", value = 42347424194)
+    der = st.number_input("Debt to Equity Ratio", value = )
+    free_float = st.number_input("Free Float", value = 0.2108)
 
     subsektor_list = [
         'Apparel & Luxury Goods', 'Properties & Real Estate', 'Oil, Gas, & Coal',
