@@ -1,6 +1,5 @@
 pandas
 numpy
-pip install numpy scipy
 scipy
-skfuzzy
+scikit-fuzzy
 mahalanobis
