@@ -5,3 +5,4 @@ scipy
 scikit-fuzzy
 mahalanobis
 openpyxl
+matplotlib
