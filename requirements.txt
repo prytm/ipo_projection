@@ -6,3 +6,4 @@ scikit-fuzzy
 mahalanobis
 openpyxl
 matplotlib
+seaborn
